@@ -1,0 +1,180 @@
+/*
+ * Copyright Statement and License Information for Virtual Coffee Kafeih.com Community
+ *
+ * Copyright Owner：Kafeih.com Community and its contributors, since the inception of the project.
+ *
+ * License Type：All code, documentation, and design works related to the Kafeih.com Community are licensed under the GNU Affero General Public License (AGPL) v3 or any later version.
+ *
+ * Use and Distribution：You are free to use, copy, modify, and distribute the code, documentation, and design works of the Kafeih.com Community, subject to the following conditions:
+ *
+ * 1. You must include the original copyright and license notices in all copies distributed or made publicly available.
+ * 2. If you modify the code or design, or derive new works from those provided by the community, you must release these modifications or derivative works under the terms of the AGPLv3 license.
+ * 3. Important Note: If you use the code or design of this community to provide network services, you must ensure that all users accessing the service through the network can access the corresponding source code.
+ *
+ * No Warranty：The Kafeih.com Community and its code, documentation, and design works are provided "as is" without any warranty, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
+ *
+ * License Acquisition：The complete text of the GNU Affero General Public License (AGPL) v3 can be found on the GNU official website.
+ *
+ * Please note that the above statement only applies to the Kafeih.com Community and the code, documentation, and design works provided by it. Third-party links or resources may be subject to different licenses from their respective owners or publishers. When using these resources, please be sure to comply with the terms of their respective licenses.
+ */
+
+.text-success {
+    color: rgb(18 199 115) !important;
+}
+
+.link-success {
+    color: rgb(18 199 115) !important;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid var(--bs-border-color);
+    opacity: 0.65;
+}
+
+html {
+    zoom: 97%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: Source Sans Pro, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.green-gradient {
+    background-image: linear-gradient(to right,#2e7d32,#c8e6c9);
+}
+
+.alert {
+    --bs-alert-padding-y: 0.5rem;
+}
+
+.at-member {
+
+}
+
+.alert-dismissible .btn-close {
+    padding: 0.7rem 1rem !important;
+}
+
+.at-member:hover {
+
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-content {
+    box-shadow: 0 .5rem 1rem rgba(var(--bs-body-color-rgb), .15) !important;
+}
+
+
+.page-link:hover, .page-link:focus, .page-link:active, .page-link:visited {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.form-control:hover, .form-control:focus, .form-control:active, .form-control:visited {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.form-check-input:checked {
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.form-check-input:checked, .form-check-input:hover, .form-check-input:focus, .form-check-input:active {
+    outline: none;
+    box-shadow: none !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #1987541c;
+    color: #198754;
+}
+
+pre {
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 0rem;
+}
+
+.page-link.active, .active > .page-link {
+    background-color: #79554800 !important;
+    border-color: #19d520;
+}
+
+.page-link:focus {
+    outline: none !important;
+}
+
+
+.btn-success-soft {
+    color: #20e188;
+    background-color: rgba(12, 188, 135, 0.1);
+}
+
+.btn-success-soft:hover {
+    color: #0cbc87;
+    border: 1px solid #1987541c;
+}
+
+.btn-primary-soft {
+    color: #20e188;
+    background-color: #1987541c;
+}
+
+.btn-primary-soft:hover {
+    color: #198754;
+    border: 1px solid #1987541c;
+}
+
+.btn-orange-soft {
+    color: #ffc107;
+    background-color: rgb(213 184 18 / 18%);
+}
+
+.btn-orange-soft:hover {
+    color: #ffc107;
+    border: 1px solid rgb(213 184 18 / 18%);
+}
+
+.btn-private-soft {
+    color: #cd62eb;
+    background-color: rgba(94, 27, 131, 0.11);
+}
+
+.btn-private-soft:hover {
+    color: #cd62eb;
+    border: 1px solid #cd62eb;
+}
+
+.btn-danger-soft {
+    color: #d6293e;
+    background-color: rgba(214, 41, 62, 0.1);
+}
+
+.btn-danger-soft:hover {
+    color: #d6293e;
+    border: 1px solid #d6293e;
+}
+
+.btn-secondary-soft {
+    color: #eaeaea;
+    background-color: rgb(255 255 255 / 8%);
+}
+
+.btn-secondary-soft:hover {
+    border: 1px solid rgb(255 255 255 / 8%);
+}
