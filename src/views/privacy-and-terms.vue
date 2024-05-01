@@ -102,14 +102,14 @@ export default {
   data() {
         return {
             webSiteName: window.common.webSiteName,
-            webDomain: "长沙泽兵品颂文化创意有限公司",
+            webDomain: "xxxxxxxx",
             email: 'kafeih@163.com',
             lastUpdate: '最后更新在 2023-09-20',
             version: '1.0.0',
-            copyright: '版权所有：长沙泽兵品颂文化创意有限公司',
+            copyright: '版权所有：xxxxxxxx',
             contact: '联系方式：0731-88888888',
-            address: '地址：长沙市开福区开福路100号',
-            terms: '条款：本协议是您与长沙泽兵品颂文化创意有限公司之间关于使用本网站服务的协议。本协议包含本协议的条款和网站上发布的所有'
+            address: '地址：xxxxxxxx',
+            terms: '条款：本协议是您与xxxxxxxx之间关于使用本网站服务的协议。本协议包含本协议的条款和网站上发布的所有'
         }
     },
 }
